@@ -1,0 +1,103 @@
+@font-face{
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face{
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+@font-face{
+	font-family: 'Cartoonish';
+	src: url('../fonts/Cartoonish.ttf')
+}
+
+html, body{
+	height: 100%;
+	min-height:100%;
+}
+
+form{
+	text-align: center;
+	text-decoration: none;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #933157;
+}
+
+.wrapper{
+	background-image: url("http://alstntec.com/wp-content/uploads/2017/07/hands-connection.png");
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	min-height: 800px;
+	min-width: 925px;
+}
+
+.login_box{
+	font-family: 'Cartoonish', sans-serif;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 70px;
+	width: 35%;
+	background-color:#ffffff;
+	border: 1px solid #EDEDED;
+	border-radius: 7px;
+	padding: 5px;
+	opacity: 0.9;
+}
+
+.login_header{
+	font-family: 'Cartoonish', sans-serif;
+	width: 100%;
+	height: 90px;
+	background-color: #933157;
+	color: #ffffff;
+	text-align: center;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.login_header h1{
+	font-family: 'Cartoonish', sans-serif;
+	margin-top:0;
+	margin-bottom: 0;
+	color:#49001C;
+	text-shadow: #000 0.5px 0.5px 0px;
+	font-size: 350%;
+}
+
+input[type="submit"] {
+	font-family: 'Cartoonish', sans-serif;
+	background-color: #933157;
+	border: 1px solid #933157;
+	border-radius: 3px;
+	margin: 5px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	color:#49001C;
+	text-shadow: #000 0.5px 0.5px 0px;
+	font-size: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+	margin-top: 5px;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover, input[type="date"]:hover {
+	border-color: #933157;
+
+}
+
+#second{
+	display: none;
+}
