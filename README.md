@@ -28,4 +28,5 @@ https://localhost/socialMedia/register.php
 
 The project was developed for Database Management Systems final assessment.
 
-
+## License
+[2.0 Apache License](https://github.com/PikkaPikkachu/friendify/blob/master/LICENSE)
